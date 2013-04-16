@@ -69,7 +69,7 @@ module Spree
     preference :site_url, :string, :default => 'demo.spreecommerce.com'
     preference :tax_using_ship_address, :boolean, :default => true
     preference :track_inventory_levels, :boolean, :default => true # will not track on_hand values for variants /products
-    preference :show_raw_product_description, :boolean, :default => true
+    preference :show_raw_product_description, :boolean, :default => false
     # Preferences related to image settings
     preference :attachment_default_url, :string, :default => '/spree/products/:id/:style/:basename.:extension'
     preference :attachment_path, :string, :default => ':rails_root/public/spree/products/:id/:style/:basename.:extension'
